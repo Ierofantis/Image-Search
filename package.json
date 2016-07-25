@@ -1,0 +1,18 @@
+{
+  "name": "image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "imgur-search": "^1.0.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "T.P",
+  "license": "ISC"
+}
