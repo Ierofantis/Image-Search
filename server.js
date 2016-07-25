@@ -1,14 +1,12 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var routes = require('./routes.js');
-var MONGOLAB_URI =  'mongodb://ha:123@ds029725.mlab.com:29725/image'
-
 var app = express();
 
 mongoose.connect(process.env.MONGOLAB_URI, function (error){
    
    if (error) console.error(error);
-   else console.logo("mongo connected")
+   else console.log("mongo connected")
 
 });
 
